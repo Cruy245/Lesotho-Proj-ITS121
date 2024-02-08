@@ -1,0 +1,333 @@
+.mr-auto{
+  margin-right: auto;
+}
+body{
+  font-family: "Poppins,sans-serif";
+}
+
+*{ 
+  scroll-behavior: smooth;
+  
+}
+
+/*Root*/
+
+:root {
+  --bggradient: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+}
+
+
+body{
+  font-family: "Poppins,sans-serif";
+  background: var(--bggradient);
+}
+
+/*Nav Bar*/
+.logo{
+  width:100px;
+  cursor:pointer;
+  margin-top: 0px;
+  align-items: left;
+}
+
+
+header a {
+  font-family: "Poppins,sans-serif";
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+
+
+header li a{
+  font-family: "Poppins,sans-serif";
+  color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #502bd4;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all  .5s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: rgb(251, 233, 69);
+  transform: translateY(-3px);
+  transition: all  .5s ease;
+}
+header .nav-link{
+  color: whitesmoke;
+  text-align: right;
+  font-weight: 200px;
+  letter-spacing: 2px;
+}
+
+header {
+  background-color: #fce055;
+  /* fallback for old browsers */
+  background: var(--bggradient) repeat;
+}
+.container .container {
+  position: relative;
+  text-align: center;
+  color: rgb(11, 4, 39);
+  
+}
+
+header .container-fluid .row .container img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*Footer formating */
+footer{
+color: #fcac0e;
+background: var(--bggradient);
+}
+
+footer .mb-2 a{
+color: #ffc758;
+}
+
+/*Main Parts*/
+.toppage {
+  position: fixed;
+  bottom: 20px;
+  z-index: 500;
+  right: 10px;
+  padding: 10px;
+  color: #b07e18;
+  text-decoration: none;
+  font-weight: bold;
+  border: 5px solid #aa7c22cc;
+  border-radius: 10px;
+}
+.toppage:hover {
+  color: #422e06;
+}
+
+
+/*Pricing*/
+
+.pricing{
+      background-image: url(images/3rdboard.png);
+      background-size:cover;
+}
+
+
+
+h2 {
+  font-size: 36px;
+  color: #ffc758;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0;
+}
+
+h3 {
+  font-size:23px;
+  color: #ffc758;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0;
+}
+.pricing {
+  color: white;
+  justify-content: center;
+}
+p {
+  font-size: 14px;
+}
+.container p {
+  line-height: 1.6;
+  margin: 10px 0;
+  color: white;
+}
+.container {
+  margin: 0 200px;
+  text-align: left;
+  padding: 50px 0 200px;
+}
+.container .header{
+  margin: 40px 0;
+  font-weight: 600;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: auto;
+  background-color: #101548;
+  border-radius: 20px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  padding: 2rem;
+  margin: 1rem;
+  transition: all 0.2s ease-in;
+  margin-bottom: 8rem;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.card-header{
+  margin: 1rem;
+  text-align: center;
+  
+}
+
+.card-wrapper:hover .card-header> h3{
+  transform: scale(1.1);
+  color: #fcac0e;
+  letter-spacing: 2;
+}
+
+.card-header >img {
+  width: 200px;
+  display: auto;
+  margin: 0 auto;
+}
+
+.card-detail {
+  width: 100%;
+}
+
+.card-detail> p{
+  padding: 0.6rem 1.5rem;
+  font-size: 0.8rem;
+  border-bottom: 2px solid #e6e5e3;
+}
+
+.check {
+  color: rgb(127, 255, 127);
+}
+
+.card-detail > p:hover {
+  background-color: #5e6511;
+}
+
+.card-price > p {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.card-button {
+  border: 2px solid #fcac0e;
+  background-color: #ffc758;
+  color: #00020e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 50ms ease-in;
+}
+
+.card-button:hover {
+  border: 2px solid #f12c2c;
+  background-color: transparent;
+  color: #f12c2c;
+  font-weight: 800;
+}
+
+.phone {
+  color: #fcac0e;
+}
+
+.location {
+  color: #fcac0e;
+  text-align: center;
+  
+}
+
+.fa-facebook {
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  color: #ffc758;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0;
+  letter-spacing: 3px;
+}
+
+/***Commission Form***/
+
+*{
+box-sizing: border-box !important;
+}
+
+.survey {
+color: rgb(255, 255, 255) !important;
+background: url("images/boards.png") no-repeat center fixed !important;
+background-size: cover !important;
+font-family: "Poppins,sans-serif";
+}
+
+#survey-form {
+background-color: rgba(6, 6, 56, 0.5) !important;
+padding: 20px !important;
+color: white !important;
+border-radius: 5px !important;
+}
+
+#comlable, #description {
+text-align: center !important;
+text-shadow: 5px 5px 10px black !important;
+
+}
+
+label, #survey-form p {
+font-size: 20px !important;
+}
+
+#dropdown, #nt-sure, #option-eight {
+margin-bottom: 20px !important;
+}
+
+.btn{
+margin-top: 10px;
+}

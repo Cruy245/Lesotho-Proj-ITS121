@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--these 2 links below needed for navbar-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--these 2 links above needed for navbar-->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesforfeedbacks.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="icon" href="images/logo.png" type="image/icon type" />
+    <script src="https://kit.fontawesome.com/dda119eb0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesfornav.css" />
+  </head>
+
+  <body>
+        <!--here starts the navigation bar with the logo-->
+        <header >
+          <img
+            class="logo fixed-top"
+            src="images/logo.png"
+            alt="logo"
+            height="70px"
+            width="70px"
+          />
+          <nav class="navbar navbar-expand-lg fixed-top p-md-3">
+            <div class="container-fluid">
+              <a class="navbar-brand me-auto" href="#"></a>
+              <button class="navbar-toggler" 
+                      type="button" 
+                      data-bs-toggle="offcanvas" 
+                      data-bs-target="#offcanvasNavbar" 
+                      aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #ee9814!important;">MENU</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+      
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="main.html" style="color: #ee9814 !important;font-family: Quicksand !important;">Home</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="commissions.html" style="color: #ee9814 !important;font-family: Quicksand !important;">Commissions</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="gallery.html" target="_blank" style="color: #ee9814!important;font-family: Quicksand !important;">Gallery</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link mx-2"  href="feedbacks.HTML" style="color: #ee9814!important;font-family: Quicksand !important;">Feedbacks</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!--here ends the navigation bar with the logo-->
+
+    <div class="panel"></div>
+    <div id="panel" class="panel-container">
+      <h2>FEEDBACK</h2>
+      <strong
+        >How satisfied are you with our <br />
+        customer support performance?</strong
+      >
+      <div class="rating-container">
+        <div class="rating">
+          <img src="images/unhappy.png" alt="" />
+          <small>Unhappy</small>
+        </div>
+
+        <div class="rating">
+          <img src="images/neutral.png" alt="" />
+          <small>Neutral</small>
+        </div>
+
+        <div class="rating">
+          <img src="images/satisfied.png" alt="" />
+          <small>Satisfied</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <form>
+        <div class="input-box">
+          <textarea name="" id="" col="10" rows="5" placeholder="Write Your Feedback Here"></textarea>
+        </div>
+
+        <button class="send">Submit</button>
+        <br /><br /><br />
+      </form>
+    </div>
+
+    <div class="contact">
+      <h2>CUSTOMER REVIEWS</h2>
+
+      <div class="container-fluid"> 
+        <div class="column">
+          <a href="images/feedback1.webp"><img src="images/feedback1.webp" class="rounded" style="width:100%"></a>
+          <a href="images/feedback2.webp"><img src="images/feedback2.webp" class="rounded" style="width:100%"></a>
+          <a href="images/feedback3.webp"><img src="images/feedback3.webp" class="rounded" style="width:100%"></a>
+          <a href="images/feedback4.webp"><img src="images/feedback4.webp" class="rounded" style="width:100%"></a>
+          <a href="images/feedback6.webp"><img src="images/feedback6.webp" class="rounded" style="width:100%"></a>
+          <a href="images/feedback7.webp"><img src="images/feedback7.webp" class="rounded" style="width:100%"></a>
+          <a href="images/feedback8.webp"><img src="images/feedback8.webp" class="rounded" style="width:100%"></a>
+        </div>
+        <div class="column">
+          <a href="images/feedback8.webp"></a><img src="images/feedback8.webp" class="rounded" style="width:100%">
+          <a href="images/feedback7.webp"></a><img src="images/feedback7.webp" class="rounded" style="width:100%">
+          <a href="images/feedback6.webp"></a><img src="images/feedback6.webp" class="rounded" style="width:100%">
+          <a href="images/feedback4.webp"></a><img src="images/feedback4.webp" class="rounded" style="width:100%">
+          <a href="images/feedback3.webp"></a><img src="images/feedback3.webp" class="rounded" style="width:100%">
+          <a href="images/feedback2.webp"></a><img src="images/feedback2.webp" class="rounded" style="width:100%">
+          <a href="images/feedback1.webp"></a><img src="images/feedback1.webp" class="rounded" style="width:100%">
+        </div>  
+
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+</script>
+
+<!--Footer-->
+
+<footer class="bg-primary text-center text-lg-start ">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+          <img src="images/logo.png" height="70" alt=""
+               loading="lazy" />
+        </div>
+
+        <p class="text-center">4 DUDES AND A KEYBOARD</p>
+        <p class="text-center">KEYBOARD MODDING SERVICES</p>
+
+        <ul class="list-unstyled d-flex flex-row justify-content-center">
+          <li>
+            <a class="text-white px-2" href="https://beacons.ai/4DK?fbclid=IwAR2mjpB62rsqxWWjkaP_4EgDyTb9rytBPS6u2ca6tYf2F6zKZp2FJxOkr3k">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white px-2" href="https://beacons.ai/4DK?fbclid=IwAR2mjpB62rsqxWWjkaP_4EgDyTb9rytBPS6u2ca6tYf2F6zKZp2FJxOkr3k">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white ps-2" href="https://beacons.ai/4DK?fbclid=IwAR2mjpB62rsqxWWjkaP_4EgDyTb9rytBPS6u2ca6tYf2F6zKZp2FJxOkr3k">
+              <i class="fa fa-envelope-o"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Branches</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="#!" class="text-white"><i class="fa-solid fa-globe pe-3"></i>Manila/Makati</a>
+          </li>
+          <li class="mb-2">
+            <a href="#!" class="text-white"><i class="fa-solid fa-globe pe-3"></i>Pasig</a>
+          </li>
+          <li class="mb-2">
+            <a href="#!" class="text-white"><i class="fa-solid fa-globe pe-3"></i>Marikina</a>
+          </li>
+          <li class="mb-2">
+            <a href="#!" class="text-white"><i class="fa-solid fa-globe pe-3"></i>Cabanatuan</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      
+
+      <!--Grid column-->
+      <div class="contact col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Contact</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i>3776 Nazario St. Makati City Brgy Tejeros</p>
+          </li>
+          <li>
+            <p><i class="fas fa-phone pe-2"></i>+63 995 097 0464</p>
+          </li>
+          <li>
+            <p><i class="fas fa-envelope pe-2 mb-0"></i>official4dkbusiness@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+</html>

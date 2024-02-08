@@ -1,0 +1,92 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1c2c54;
+    width: 100%;
+    height: 120px;
+    font-size: 14px;
+    z-index: 100;
+}
+
+/*Footer Image*/
+footer .footer-bg {
+    object-fit: cover;
+    width: 80%;
+    opacity: 0.2;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+}
+
+/*Footer Break line*/
+footer .footer-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 100%;
+    color: #ffc758;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Footer Logo Image at the left*/
+footer .footer-text .footer-text-upper img {
+    border-radius: 50%;
+    width: 100px;
+    position: absolute;
+    left: 13%;
+    top: -27px;
+}
+
+/*Formating the Upper Header in the footer*/
+footer .footer-text .footer-text-upper {
+    width: 500px;
+    display: flex;
+    top: 10px;
+    padding-left: 30%;
+}
+
+/*Text formating in the Upper Header in the footer*/
+footer .footer-text .footer-text-upper h1 {
+    font-size: 18px;
+}
+
+/*Border content of the Footer*/
+footer .border {
+    position: absolute;
+    border-bottom: 4px solid #ffc758;
+    width: 20%;
+    top: 43%;
+}
+
+/*Text formating for the Bottom Text*/
+footer .footer-text .footer-text-bottom {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*Text formating align for the Branches*/
+footer .footer-text .footer-text-bottom h2 {
+    text-align: center;
+    bottom: 50px;
+    font-size: 15px;
+}
+
+/*Branches Text formating*/
+footer .footer-text .footer-text-bottom .branches {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 10px;
+}
+
+/*Margining the Text format*/
+footer .footer-text .footer-text-bottom .branches div {
+    margin: 5px 30px;
+}

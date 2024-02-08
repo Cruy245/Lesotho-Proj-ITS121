@@ -1,0 +1,64 @@
+@media only screen and (max-width: 767px) {
+  .mr-auto {
+    margin-right: 0 !important;
+  }
+  
+  body {
+    font-size: 14px !important;
+  }
+  
+  header .navbar-brand {
+    padding-left: 0 !important;
+  }
+  
+  header .nav-item {
+    padding: 0.5em !important;
+  }
+  
+  .container,
+  header .container-fluid .row .container {
+    margin: 0 !important;
+  }
+  
+  .container img {
+    width: 100% !important;
+  }
+
+  .pricing {
+    flex-direction: column !important;
+  }
+  
+  .card-wrapper {
+    width: 100% !important;
+    margin: 0.5rem !important;
+  }
+  
+  .card-header > img {
+    width: 150px !important;
+  }
+  
+  h2 {
+    font-size: 2rem !important;
+  }
+  
+  h3 {
+    font-size: 1.8rem !important;
+  }
+}
+
+/* Add additional styles for smaller screens if necessary */
+@media only screen and (max-width: 575px) {
+  h2, h3 {
+    font-size: 1.8rem;
+  }
+  
+  .card-header > img {
+    width: 120px;
+  }
+  
+  .card-wrapper {
+    margin: 0.3rem;
+  }
+  
+
+}

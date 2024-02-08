@@ -1,0 +1,26 @@
+/*Root*/
+
+:root {
+    --bggradient: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+  }
+
+
+h1 {
+    font-family: Quicksand;
+}
+
+body {
+    background-color: #1e2c55 !important;
+    font-family: Quicksand !important;
+    color: #ee9814 !important;
+}
+
+/*Footer formating */
+footer{
+    color: #fcac0e;
+    background: var(--bggradient);
+    }
+    
+    footer .mb-2 a{
+    color: #ffc758;
+    }
